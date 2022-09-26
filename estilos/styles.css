@@ -1,0 +1,160 @@
+:root{
+    --colorTextos: #49454567;
+}
+
+
+body{
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+/*¨formulario */
+section{
+    height: 65%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+section h1{
+    text-align: center;
+    font-weight: 700;
+
+}
+
+section form{
+    background-color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgb(255, 255,255, 0.8);
+    border-radius: 10px;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #b06ab3;
+    padding-top: 20px;
+}
+
+.form{
+     width: 100%;
+     margin: auto;
+}
+
+form .grupo{
+position: relative;
+margin: 45px;
+}
+
+section input{
+    background: none;
+    color: #a59e9e65;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+
+
+
+.text{
+    color:white
+}
+
+
+
+.row > * {
+  width: 80%;
+  max-width: 100%;
+}
+
+.row {
+    --bs-gutter-x: -22.5rem;
+    --bs-gutter-y: 0;
+    margin-right: none;}
+
+h2{
+    color: white;
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+input:focus{
+    outline: none;
+    color:#5e5d5d;
+}
+
+section label{
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+   
+ color : var(--colorTextos)
+}
+
+
+section button{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+display: block;
+width: 80%;
+margin: 10px auto;
+color: #fff;
+height: 40px;
+cursor: pointer;
+}
+
+
+/*footer*/
+
+footer {
+    margin: 10% 0% 0% 0%;
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    height: 100%;
+    display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 100% 100% 100%;}
+ 
+footer  div p{
+    text-align: center;
+    color: white;
+    margin: 20px 100px 20px 40px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    font-size: medium;
+   
+   }
+   .redes {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+
+
+     .redes img{
+      
+      margin: 0px 10px 0px 10px;
+      width: 40px;
+      height: 40px;
+      transition: all 0.3s;
+      }
+       .redes :hover{
+        transform: scale(1.3) translateY(-1%) ;
+    }
+   
